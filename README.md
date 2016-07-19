@@ -14,3 +14,5 @@ efficient programming workflow that allows you to:
 3. Seamlessly collaborate with other developers on a project
 4. The use of tools like Git and GitHub is essential for collaborating with 
    other developers in most professional environments.
+
+https://www.udacity.com/course/how-to-use-git-and-github--ud775
