@@ -1,0 +1,73 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    Initializing a repository (git init) is the initial step in version-control.
+    From there an existing project or directory can be imported or pushed into
+    GitHub so changes to that project/file/etc. can be easily tracked. 
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    The staging area acts as a prep area for work to be committed to Github.
+    Until added to the staging area, work cannot be included in the next commit.
+    Useful in that the staging area can help create order by allowing for only
+    logically grouped work to be committed together.
+    
+    
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    The staging area is the transition space (or purgatory, if you will) between
+    the sweltering hell of one's working directory and the sweet heaven of the
+    Github repository. If one has made several changes to the project at hand,
+    one can use the staging area to only add changes related to each logical
+    changes before making the commit. Can provide order to the process. 
+
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+    Branches give one the freedom to experiment on a project while setting a
+    stable master branch aside if by chance said experiments are a bust. Now one
+    can attempt new functions while having the safety net of a stable, working
+    version at one's disposal. If the experimentation is successful, one can
+    just merge the branches if desired. 
+
+
+How do the diagrams help you visualize the branch structure?
+
+    One can easily see the sequence of all the commits. Helps in visualizing
+    the logic (or lack thereof) of your repository and well as make clear which
+    branches are easily accessible or inaccessible from any tip. 
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    Merging two branches together forms a new branch with all the commits of the
+    two merging branches included. From there, the merging branch can be
+    discarded and focus can be placed on this newly created branch of interest.
+    This action is represented visually in manner that clearly lays out the
+    merged branches and commit histories.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+   Pros: Automatic merging is a real time-saver over doing each merge
+   manually. Human time is a significant resource that should not be undervalued.
+   Additionally, doing merges manually introduces more opportunity for human
+   error. 
+   
+   Cons: Git is not perfect by any means. Valuable time could be spent on
+   relatively insignificant merge conflicts, for example, while possibly merging
+   new code along with linked deletions from another contributor to potentially
+   break code or damage the functionality of a project. 
+
+ 
+
+
+
+
+
+
