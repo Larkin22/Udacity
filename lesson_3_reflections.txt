@@ -1,0 +1,79 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    There's a plethora of good reasons to use a remote repository over keeping 
+    all your work local. 
+
+    1. When working collaboratively on a project
+    2. When one wants/needs to work on a project using different computers
+    3. When one wants an additional backup of their work product
+    4. When one simply wants to share or show off their code 
+    
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    If there's the potential for conflicts or unexpected changes to a project. 
+    The manual pull helps one maintain better control of the code. 
+
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    All provide an avenue to make changes without impacting the original 
+    version. As for differences, I respectfully defer to one of our intrepid
+    course instructors...
+
+    "I use branching for most cases where I want to add new changes to a
+    repository while keeping an easy reference to a previous version, especially
+    when collaborating with other people.  I clone a repository on GitHub when I
+    want to work on that repository locally rather than using the GitHub
+    website.  I fork a repository on GitHub when I want to make changes to that
+    repository public, but I don't have permission to modify the original."
+
+https://github.com/cbuckey-uda/reflections/blob/master/lesson_3_reflections.txt
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    If one is sans Internet for a bit. Say, trapped on an aging MTA subway car 
+    in remote part of BK or on a domestic flight with the standard weak yet 
+    expensive dumpster fire wifi. If the last known state of the remote is 
+    stored locally, work can still be completed on the project.
+
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    For coding, something like Dropbox could work in a pinch. Otherwise, emailing
+    copies of a file back and forth until insanity reigned and the project 
+    devolved into a complete clusterfuck. Other options exist but not without 
+    significant concerns about ease of sharing or a lack of order and control. 
+
+    Using Git and Github seems the smart play in nearly all respects. The only 
+    potential obstacle that springs to mind is the steep learning curve for 
+    effectively internalizing and properly using Git and Github. Unless all 
+    project collaborators were well-versed in the logic and syntax, they could 
+    be frozen out of the project. 
+    
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Working in a separate branch can be good if experimenting with your code or
+    when/if you're working with a group of collaborators and you want to keep 
+    work changes organized.
+
+    I suppose if you're working solo, it's fine working in the master since 
+    you'll need to track your own code. Or: working in the master might make a 
+    great deal of sense if the code is not overly complex or lengthy or if any
+    changes are very minor in nature. Otherwise, working on separate branches 
+    seems the wise move.
+
+
+
+
+
+
+
