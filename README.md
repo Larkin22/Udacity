@@ -1,18 +1,23 @@
-Effective use of version control is an important and useful skill for any 
-developer working on long-lived (or even medium-lived) projects, especially 
-if more than one developer is involved. This course, built with input from 
-GitHub, will introduce the basics of using version control by focusing on a 
-particular version control system called Git and a collaboration platform 
-called GitHub.
+Per instructions, here are my initial thoughts on the questions posed throughout
+this Udacity course. Hopefully, my early efforts read as clear and concise. 
+Should they not, I'm confident that clarity and understanding will improve over 
+time. 
 
-Git is used by many tech companies, and a public GitHub profile serves as a 
-great portfolio for any developer. But more than that, you’ll establish an 
-efficient programming workflow that allows you to:
 
-1. Keep track of multiple versions of a file
-2. Track bugs by reverting to previous working versions of a file
-3. Seamlessly collaborate with other developers on a project
-4. The use of tools like Git and GitHub is essential for collaborating with 
-   other developers in most professional environments.
+From Udacity:
+
+Sharing your reflections
+We encourage you to be bold in sharing your reflections on GitHub. If you're 
+not happy with any of your responses, the best solution is to update that 
+response in one or more new commits. The previous response will still be visible 
+in the commit history, but updating your perspective over time is part of the 
+learning process! Having a commit history that shows your updating perspective 
+will reflect well on you, not poorly.
+
+That said, if you've written anything in your reflections repository that you 
+are not comfortable sharing, you can checkout the commit before you introduced 
+that change, create a new branch at that point, and commit any other changes you 
+are willing to share to the new branch. Then, by only pushing your new branch, 
+you can keep the changes on your original branch private.
 
 https://www.udacity.com/course/how-to-use-git-and-github--ud775
